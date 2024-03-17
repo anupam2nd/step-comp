@@ -38,7 +38,7 @@ export default function ProfileCard() {
             </div>
         </div> */}
 
-        <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
+        <div className="max-w-7xl mx-auto sm:px-6 lg:px-8 animate-on-scroll ">
             <div className="group h-96 w-96 [perspective:1000px]">
                 <div className="relative h-full w-full rounded-xl shadow-xl transition-all duration-300 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] "
                 >

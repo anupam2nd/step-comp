@@ -1,0 +1,16 @@
+.onscroll{
+    animation: fade-in linear;
+    animation-timeline: view();
+    animation-range: cover;
+}
+
+@keyframes fade-in {
+    0% {
+        transform: scale(.8);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}

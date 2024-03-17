@@ -7,4 +7,11 @@
     .back-visible-hidden{
         backface-visibility: hidden;
     }
+
+    .scroll-animation{
+        /* animation: scrolling linear; */
+        animation-timeline: view();
+        animation-range: cover;
+    }
 }
+
